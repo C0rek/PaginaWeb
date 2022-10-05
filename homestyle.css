@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+}
+
+/* HEADER */
+header button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    color:black;
+    background-color: rgba(0,0,0,0.02);
+}
+
+header{
+    background-color: rgb(235,235,235);
+}
+
+header section{
+    font-size: 1.8em;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+}
+header section a{
+    text-decoration: none;
+    color: black;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+header nav{
+    display: flex;
+    padding-bottom: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    margin: auto;
+    justify-content: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+header nav a:hover{
+    background: rgba(235,235,245);
+    color:black;
+}
+
+/*POPUP*/
+
+/*Color de fondo y tamaño del popup*/
+#popup::backdrop{
+    background-color: rgba(0,0,0,0.55);
+}
+
+#popup{
+    max-width: 60ch;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 1ch;
+    position: center;
+    padding: -10px -15px;
+    border-width: 0.05cm;
+    padding-bottom: 20px;
+}
+
+#exit{
+    padding: 0px;
+    font-size: small;
+    text-align: right;
+    padding-bottom: 0%;
+}
+
+#popup a{
+    width: 100px;
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+}
+#popup a:hover{
+    color: rgba(0,0,0,0.5);
+}
+
+/*Botones de Registro y login*/
+#popup button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px 20px;
+    position:right;
+    border-radius: 0.5ch;
+    box-shadow: none;
+    border: none;
+    color:black;
+    background-color: rgba(0,0,0,0.02);
+}
+#popup button:hover{
+    color: rgba(0,0,0,0.5);
+}
+
+/* HERO */
+#hero{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 200px;
+    background-image: url(media/Banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+/* BODY */
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 200px;
+    border: none;
+    box-shadow: none;
+    color:black;
+    background-color: transparent;
+}
+button:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+#ClaseRopa .carta{
+    padding: 150px;
+    width: 100px 100px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+
+.tipos{
+    display: flex;
+    justify-content: center;
+}
+
+.carta:first-child{
+    background-image:url(media/REMERA-SHOVEX.jpg);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    position: relative;
+    overflow: hidden;
+}
+
+.carta:nth-child(2){
+    background-image:url(media/jeans-hombre.png);
+    background-repeat: no-repeat;
+    background-position: center, center;
+    position: relative;
+    overflow: hidden;
+}
+
+.carta:nth-child(3){
+    background-image:url(media/Child.jpg);
+    background-repeat: no-repeat;
+    background-position: 10% 80%;
+    background-size: 100%;
+}
+
+/* 
+FOOTER */
+footer .container{
+    justify-content: flex-end;
+}
